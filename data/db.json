@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": "user_owner_1",
+      "name": "Binay Kshetry (Platform Owner)",
+      "email": "kshetrybinay@gmail.com",
+      "phone": "9800000001",
+      "role": "owner",
+      "accountType": "email",
+      "status": "active",
+      "language": "en",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 99999900
+    },
+    {
+      "id": "user_sradmin_1",
+      "name": "Rohan Sharma (Senior Admin)",
+      "email": "rohan.sradmin@nepalstore.test",
+      "phone": "9800000002",
+      "role": "user",
+      "accountType": "email",
+      "status": "active",
+      "language": "en",
+      "createdAt": "2025-02-15T00:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 5000000
+    },
+    {
+      "id": "user_brand_1",
+      "name": "Sita Dahal (Brand Manager)",
+      "email": "sita.brands@nepalstore.test",
+      "phone": "9800000003",
+      "role": "brand_manager",
+      "accountType": "email",
+      "status": "active",
+      "language": "en",
+      "createdAt": "2025-03-10T00:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 2500000
+    },
+    {
+      "id": "user_helper_1",
+      "name": "Bikash Tamang (Support Helper)",
+      "email": "bikash.helper@nepalstore.test",
+      "phone": "9800000004",
+      "role": "helper",
+      "accountType": "email",
+      "status": "active",
+      "language": "ne",
+      "createdAt": "2025-04-01T00:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 1000000
+    },
+    {
+      "id": "user_normal_1",
+      "name": "Aarav Sharma (Customer)",
+      "email": "aarav.sharma@nepalstore.test",
+      "phone": "9800000005",
+      "role": "user",
+      "accountType": "phone",
+      "status": "active",
+      "language": "en",
+      "createdAt": "2026-01-15T08:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 450000
+    },
+    {
+      "id": "user_biz_1",
+      "name": "Tenzing Sherpa (Artisan Seller)",
+      "email": "tenzing.seller@nepalstore.test",
+      "phone": "9800000006",
+      "role": "seller",
+      "accountType": "business",
+      "businessName": "Himalayan Arts & Heritage",
+      "panNumber": "601293847",
+      "status": "active",
+      "language": "ne",
+      "createdAt": "2025-11-20T10:00:00Z",
+      "salt": "d416706c991e6af4b22a532dfca9f73f",
+      "passwordHash": "0e251143076274d1cbc81612607ea2b6cbb598892ae1db672af1d71e3d475bcbbd7b698a6d9907d1a38a2677c5f3cb19d6cb77a52e9d7ef1066a1187e8b6311f",
+      "walletBalance": 12500000
+    },
+    {
+      "id": "user_1793381271901_6fw6",
+      "name": "Hacker User",
+      "email": "hacker@test.com",
+      "role": "user",
+      "accountType": "email",
+      "status": "active",
+      "language": "en",
+      "createdAt": "2026-10-30T17:27:51.901Z",
+      "salt": "3d6ff3e4c7bbc435ce45f78f57a1c362",
+      "passwordHash": "9ec732c9ff0af8dcc7f51bd58a45e27f19ff63082dc81bcbb45f6d5c6ff02973673b32460bd41d8f560dcd5a721ff656ad312d40cdf9185cc43623dc13599e2a",
+      "walletBalance": 10000
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "TICK-9021",
+      "userPhoneOrEmail": "9800000005",
+      "userName": "Aarav Sharma",
+      "subject": "Delivery zone confirmation for Lazimpat, Kathmandu",
+      "category": "Delivery Delay",
+      "priority": "Medium",
+      "status": "Open",
+      "assignedHelper": "Bikash Tamang",
+      "messages": [
+        {
+          "sender": "Aarav Sharma",
+          "text": "Hello, when will my order NS-20261030-942 be delivered?",
+          "time": "10:00 AM"
+        },
+        {
+          "sender": "Bikash (Helper)",
+          "text": "Namaste! It is packed and out for delivery with our Kathmandu rider.",
+          "time": "10:15 AM"
+        }
+      ],
+      "createdAt": "2026-10-30T17:26:48.847Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand_palpali",
+      "name": "Palpali Dhaka Official Store",
+      "slug": "palpali-dhaka",
+      "category": "Nepali Handicrafts & Weaves",
+      "manager": "Sita Dahal",
+      "featured": true,
+      "status": "Verified",
+      "logoUrl": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=120&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=1200&q=80",
+      "campaignTitle": "100% Traditional Handloom Guarantee"
+    },
+    {
+      "id": "brand_ilam",
+      "name": "Ilam Estate Orthodox Tea",
+      "slug": "ilam-estate",
+      "category": "Organic Agriculture",
+      "manager": "Sita Dahal",
+      "featured": true,
+      "status": "Verified",
+      "logoUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=120&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
+      "campaignTitle": "Himalayan Spring First Flush"
+    },
+    {
+      "id": "brand_samsung",
+      "name": "Samsung Nepal Authorized",
+      "slug": "samsung-nepal",
+      "category": "Electronics & Gadgets",
+      "manager": "Sita Dahal",
+      "featured": true,
+      "status": "Verified",
+      "logoUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=120&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=1200&q=80",
+      "campaignTitle": "1-Year Official National Warranty"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "DASHAIN2026",
+      "type": "percent",
+      "value": 15,
+      "maxDiscountPaisa": 500000,
+      "usageLimit": 1000,
+      "usedCount": 42,
+      "active": true,
+      "expiresAt": "2026-12-31T23:59:59Z"
+    },
+    {
+      "code": "WELCOME100",
+      "type": "fixed",
+      "value": 10000,
+      "minOrderPaisa": 50000,
+      "usageLimit": 5000,
+      "usedCount": 120,
+      "active": true,
+      "expiresAt": "2026-12-31T23:59:59Z"
+    },
+    {
+      "code": "FREESHIP",
+      "type": "free_shipping",
+      "value": 0,
+      "usageLimit": 500,
+      "usedCount": 88,
+      "active": true,
+      "expiresAt": "2026-12-31T23:59:59Z"
+    }
+  ],
+  "orders": []
+}
