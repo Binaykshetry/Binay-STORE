@@ -1,0 +1,6 @@
+{
+  "name": "NepaleseStore - Nepal's Trusted Online Bazaar",
+  "description": "Nepal's premier e-commerce marketplace, classifieds bazaar, and digital store featuring authentic Nepali handicrafts, local goods, eSewa/Khalti/COD checkout, and seller portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
